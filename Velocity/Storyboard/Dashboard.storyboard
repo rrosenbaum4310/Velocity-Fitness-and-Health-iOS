@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q8v-Jb-G5p">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Dash Board Tab Controller-->
+        <scene sceneID="IY0-0K-KYO">
+            <objects>
+                <tabBarController storyboardIdentifier="DashBoardTabController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="q8v-Jb-G5p" customClass="DashBoardTabController" customModule="Velocity" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="GAT-lK-W3H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.92156862750000001" green="0.3921568627" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.92156862750000001" green="0.3921568627" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="O33-6k-4i3" kind="relationship" relationship="viewControllers" id="jTc-2J-6B6"/>
+                        <segue destination="ORc-7N-6Nt" kind="relationship" relationship="viewControllers" id="Gw4-jt-Tml"/>
+                        <segue destination="VAX-e3-cHp" kind="relationship" relationship="viewControllers" id="JTk-r7-v4A"/>
+                        <segue destination="0sd-4n-SXh" kind="relationship" relationship="viewControllers" id="4e9-rL-LkA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVW-BE-tJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-852" y="-181"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="l5m-Ih-goy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="O33-6k-4i3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home" selectedImage="home-active" id="O4G-Ye-DNj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpQ-u2-Zlv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-269" y="-295"/>
+        </scene>
+        <!--MemberProfile-->
+        <scene sceneID="YLL-DJ-yo9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MemberProfile" id="ORc-7N-6Nt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" selectedImage="profile-active" id="JPT-ZL-FGj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9z-PQ-Qvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226" y="-226"/>
+        </scene>
+        <!--Training-->
+        <scene sceneID="Str-M6-6kA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Training" id="VAX-e3-cHp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Exercise" image="training" selectedImage="training-active" id="BO4-Im-JaM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LG9-kr-HTx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-258" y="-148"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="Yvz-mb-RQz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Contact" id="0sd-4n-SXh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contact" image="contact" selectedImage="contact-active" id="obG-bk-Lks"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xv8-2q-aZu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-259" y="-65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="contact" width="27" height="26"/>
+        <image name="contact-active" width="27" height="26"/>
+        <image name="home" width="25" height="20"/>
+        <image name="home-active" width="25" height="20"/>
+        <image name="profile" width="25" height="25"/>
+        <image name="profile-active" width="25" height="25"/>
+        <image name="training" width="30" height="22"/>
+        <image name="training-active" width="30" height="22"/>
+    </resources>
+</document>

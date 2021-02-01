@@ -1,0 +1,143 @@
+PODS:
+  - AFDateHelper (4.3.0)
+  - Alamofire (5.4.1)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - BDKCollectionIndexView (2.2.2)
+  - Bolts (1.9.1):
+    - Bolts/AppLinks (= 1.9.1)
+    - Bolts/Tasks (= 1.9.1)
+  - Bolts/AppLinks (1.9.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.1)
+  - CardIO (5.4.1)
+  - Cartography (4.0.0)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookShare (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FontAwesome.swift (1.9.1)
+  - FSCalendar (2.8.2)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.1.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher (~> 1.4)
+  - GTMSessionFetcher (1.5.0):
+    - GTMSessionFetcher/Full (= 1.5.0)
+  - GTMSessionFetcher/Core (1.5.0)
+  - GTMSessionFetcher/Full (1.5.0):
+    - GTMSessionFetcher/Core (= 1.5.0)
+  - HKKit (4.0.6):
+    - AFDateHelper
+    - Cartography
+  - IQKeyboardManagerSwift (6.5.6)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - PayPal-iOS-SDK (2.18.1):
+    - PayPal-iOS-SDK/CardIO (= 2.18.1)
+    - PayPal-iOS-SDK/Core (= 2.18.1)
+  - PayPal-iOS-SDK/CardIO (2.18.1):
+    - CardIO (~> 5.4.1)
+  - PayPal-iOS-SDK/Core (2.18.1)
+  - SDWebImage (5.10.3):
+    - SDWebImage/Core (= 5.10.3)
+  - SDWebImage/Core (5.10.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - BDKCollectionIndexView
+  - Bolts
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - FBSDKLoginKit
+  - FontAwesome.swift
+  - FSCalendar
+  - GoogleSignIn
+  - HKKit
+  - IQKeyboardManagerSwift
+  - MagicalRecord
+  - PayPal-iOS-SDK
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - AFDateHelper
+    - Alamofire
+    - AppAuth
+    - BDKCollectionIndexView
+    - Bolts
+    - CardIO
+    - Cartography
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FontAwesome.swift
+    - FSCalendar
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - HKKit
+    - IQKeyboardManagerSwift
+    - MagicalRecord
+    - PayPal-iOS-SDK
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFDateHelper: b769c07d3d4784ee9a74633285304261bb27dc52
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  BDKCollectionIndexView: 489a0c57d27fafe6944ef61e5a4192902148ea84
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FacebookShare: 85968ad1b1606c4944fb154924e425fd29184ea5
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  FontAwesome.swift: 6b52cb7be66eacd28cbfaa0ca7ffd0de4a186a1d
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  HKKit: 746d3afdee3e06ba27f4fb684f8c8d123fa0e624
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  PayPal-iOS-SDK: 70d56697aef502c130b9840e31dea5c6b8a350e1
+  SDWebImage: e378178472b735e84b007bfb55514c97948a0598
+
+PODFILE CHECKSUM: fbb70bdad53d21892caad0afca7fd462d56e7fb9
+
+COCOAPODS: 1.10.0
